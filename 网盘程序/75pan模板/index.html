@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>会员注册 - 云盘存储 - 永久免费的CDN多媒体网盘 - www.153zy.com</title>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <link rel="stylesheet" href="static/css/style.css"/>
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/js/layer.js"></script>
+
+    <body>
+
+        <div class="login-container">
+            <h1>
+                <img src="static/picture/logo.png" alt="">
+            </h1>
+            <div class="connect">
+                <p>免费多媒体云盘系统</p>
+            </div>
+
+            <form action="/reg/save" method="post" id="registerForm">
+                <div>
+                    <input type="text" name="name" class="username" placeholder="您的用户名" autocomplete="off"/>
+                </div>
+                <div>
+                    <input type="password" name="pass" class="password" placeholder="输入密码" />
+                </div>
+                <div>
+                    <input type="password" name="repass" class="confirm_password" placeholder="再次输入密码" />
+                </div>
+
+                <div>
+                    <input type="email" name="email" class="email" placeholder="输入邮箱地址" />
+                </div>
+
+                <div> <input type="text" name="code" class="password" placeholder="验证码"  />
+                    <img src="static/picture/6b6af0a8749a4c199b589f77e8b465a2.gif" onclick="this.src=this.src+'?'" class="verifyimg"> </div>
+                <span id="submit" class="u-btn">注 册</span>
+            </form>
+            <a href="/login" class="to-login">
+                <button type="button" class="register-tis">已经有账号？</button>
+            </a>
+
+
+            <p class="copyright">
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>&copy; 版权所有 <span>
+                    www.75pan.com
+                </span> &nbsp;|&nbsp;永久免费的CDN多媒体网盘
+            </p>
+
+        </div>
+
+
+
+        <!--背景图片自动更换-->
+        <script src="static/js/supersized.3.2.7.min.js"></script>
+        <script src="static/js/common.js"></script>
+    </body>
+
+</html>
