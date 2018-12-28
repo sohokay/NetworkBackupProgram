@@ -38,8 +38,8 @@
 
 ## 示例图片
 
-![alt](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/0.png)
+![](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/0.png)
 
-![alt](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/1.png)
+![](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/1.png)
 
-![alt](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/2.png)
+![](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/2.png)
