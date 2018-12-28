@@ -38,8 +38,8 @@
 
 ## 示例图片
 
-![alt](https://github.com/TastSong/NetworkBackupProgram/blob/master/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/0.png)
+![alt](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/0.png)
 
-![alt](https://github.com/TastSong/NetworkBackupProgram/blob/master/示例图片/1.png)
+![alt](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/1.png)
 
-![alt](https://github.com/TastSong/NetworkBackupProgram/blob/master/示例图片/2.png)
+![alt](https://github.com/TastSong/NetworkBackupProgram/tree/master/PNG/2.png)
