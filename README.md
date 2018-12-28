@@ -1,24 +1,45 @@
 # NetworkBackupProgram
 
-1.选创建个MYSQL数据库，把根目录下的Mysql.sql导入进去
+## 使用方法
 
-2.修改 ./sys/libs/db.php 修改数据库账号、密码、数据库名字
+1. 选创建个MYSQL数据库，把根目录下的Mysql.sql导入进去
 
-3.登录后台，修改网站配置（默认后台账号、密码、认证码全部是:111）
+2. 修改 ./sys/libs/db.php 修改数据库账号、密码、数据库名字
 
-4.转码水印LOGO位置 ./packs/ffmpeg/logo.png
+3. 登录后台，修改网站配置（默认后台账号、密码、认证码全部是:111）
 
-5.转码字幕文件位置 ./packs/ffmpeg/zimu.ass
+4. 转码水印LOGO位置 ./packs/ffmpeg/logo.png
+
+5. 转码字幕文件位置 ./packs/ffmpeg/zimu.ass
+
+**注意：**
+
+1. 所有转码服务器和网站服务器的PHP环境需要去掉exec、shell_exec这两个禁用函数
+
+2. 每增加一个转码服务器，都需要把根目录下的《上传服务器》里面的文件传到转码服务器
+
+3. 然后去后台增加服务器即可
+
+4. 转码水印LOGO位置 ./ffmpeg/logo.png
+
+5. 转码字幕文件位置 ./ffmpeg/zimu.ass
+
+6. 上传+转码服务器建议用`Nginx` 支持高并发，稳定，功能算是强度大
+
+> Nginx伪静态
+>
+> location / { if ( $request_method = 'OPTIONS' ) {
+> add_header access-control-allow-headers range;
+> add_header access-control-allow-methods GET,POST,HEAD,OPTIONS;
+> add_header access-control-allow-origin *;return 200;}add_header access-control-allow-origin* ;
+> }
 
 
-注意：
 
-1.所有转码服务器和网站服务器的PHP环境需要去掉exec、shell_exec这两个禁用函数
+## 示例图片
 
-2.每增加一个转码服务器，都需要把根目录下的《上传服务器》里面的文件传到转码服务器
+![alt](https://github.com/TastSong/NetworkBackupProgram/blob/master/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/0.png)
 
-3.然后去后台增加服务器即可
+![alt](https://github.com/TastSong/NetworkBackupProgram/blob/master/示例图片/1.png)
 
-4.转码水印LOGO位置 ./ffmpeg/logo.png
-
-5.转码字幕文件位置 ./ffmpeg/zimu.ass
+![alt](https://github.com/TastSong/NetworkBackupProgram/blob/master/示例图片/2.png)
